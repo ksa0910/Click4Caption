@@ -1,0 +1,1 @@
+python inference.py --cfg-path eval_configs/click4caption_eval.yaml --gpu-id 1 --image_path /proj/ecole/team/keegan.stoner/Osprey/original_1.jpg --tl_x -1 --tl_y -1 --br_x -1 --br_y -1 --input_text 'image[IMG] What is it?'

@@ -3,6 +3,8 @@ cached_model/*
 !cached_model/.gitkeep
 run_demo.sh
 run_train.sh
+test_images/
+img_with*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

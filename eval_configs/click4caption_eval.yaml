@@ -5,7 +5,7 @@ model:
   freeze_qformer: False
   max_txt_len: 160
   end_sym: "###"
-  low_resource: False  #True
+  low_resource: True  #True
 
   delete_vit_cls_token: True
   add_img_pe: True

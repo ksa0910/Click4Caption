@@ -135,7 +135,8 @@ class Chat:
         #     conv.messages[-1][1] = ' '.join([conv.messages[-1][1], text])
         # else:
         #     conv.append_message(conv.roles[0], text)
-        conv.append_message(conv.roles[0], text)  # we input the img-placeholder [IMG] in the user-text manually now
+        conv.messages = [[conv.roles[0], text]]
+        # conv.append_message(conv.roles[0], text)  # we input the img-placeholder [IMG] in the user-text manually now
     
     @torch.no_grad()
     def answer(self, conv, img_list, max_new_tokens=300, num_beams=1, min_length=1, top_p=0.9,
